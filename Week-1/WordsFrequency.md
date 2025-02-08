@@ -1,4 +1,4 @@
-#This is my code for the WordsFrequency program.
+# This is my code for week 1 assignment 2: The WordsFrequency program.
 
 ```java
 
