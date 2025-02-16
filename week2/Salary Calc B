@@ -1,0 +1,19 @@
+
+Enter annual salary (-1 to exit): 
+10000
+Annual Salary: 10000	Tax rate: 0.25	Tax to pay: 2500
+
+Enter annual salary (-1 to exit): 
+50000
+Annual Salary: 50000	Tax rate: 0.35	Tax to pay: 17500
+
+Enter annual salary (-1 to exit): 
+50001
+Annual Salary: 50001	Tax rate: 0.35	Tax to pay: 17500
+
+Enter annual salary (-1 to exit): 
+100001
+Annual Salary: 100001	Tax rate: 0.45	Tax to pay: 45000
+
+Enter annual salary (-1 to exit): 
+-1
