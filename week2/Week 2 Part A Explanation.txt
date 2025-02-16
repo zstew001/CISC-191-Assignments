@@ -1,0 +1,15 @@
+Week 2 Explanation:
+
+Part A:
+
+1. Creating the void setTables method allows the private fields for int[] search, double[] value, and int nEntries to be updated when the setTables method is called using an object in main. 
+
+2. In the main method, first create a new TaxTableTools object called table. Then call the setTables method using table.setTables with salary and taxTable as parameters.
+
+Part B:
+
+1. Creating an Overloaded constructor allows the private fields to be updated via a constructor call with int[] search and double[] value as parameters. This allows both a parameterized and non-parameterized constructor call to be used in the main method which will determine whether to use the base salary ranges and tax rates or the updated ones.
+
+2. In the main method, you can either use:
+TaxTableTools table = new TaxTableTools() to call the default constructor or
+TaxTableTools table = new TaxTableTools(salaryRange, taxRates) to call the overloaded constructor using new Salary/Tax Rate values.
