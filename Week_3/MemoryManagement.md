@@ -4,6 +4,7 @@ class Person {
     int id;
     String name;
 
+
     public Person(int id, String name) {
         this.id = id;
         this.name = name;
@@ -23,3 +24,4 @@ public class PersonBuilder {
     }
 }
 ```
+![IMG_2444](https://github.com/user-attachments/assets/5cce2d46-c85c-4dbc-aa33-d8e5184cab01)
