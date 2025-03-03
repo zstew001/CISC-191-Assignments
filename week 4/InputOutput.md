@@ -32,3 +32,4 @@ public class InputOutput {
     
 }
 ```
+![Screenshot 2025-03-02 213309](https://github.com/user-attachments/assets/82c2896b-fd3e-4a6a-9f9b-4371bd434b10)
