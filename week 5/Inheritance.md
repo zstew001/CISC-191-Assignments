@@ -38,12 +38,12 @@ public class Student extends Person {
 // ===== Code from file StudentDerivationFromPerson.java =====
 public class StudentDerivationFromPerson {
    public static void main(String[] args) {
-      Student courseStudent = new Student();
-      courseStudent.setName("Smith");
-      courseStudent.setAge(20);
-      courseStudent.setID(9999);
-      courseStudent.printAll();
-      System.out.println(", ID: " + courseStudent.getID());
+      Student courseStudent = new Student(); //creation of new Student object called courseStudent
+      courseStudent.setName("Smith");   //calling setName() method to assign name to courseStudent object
+      courseStudent.setAge(20);   //calling setAge() method to assign age to courseStudent object
+      courseStudent.setID(9999);   //calling setID() method to assign ID number to courseStudent object
+      courseStudent.printAll();   //calling printAll() method to print student name and age
+      System.out.println(", ID: " + courseStudent.getID()); //separate println statement to print ID number(formatting included)
 
    }
 }
