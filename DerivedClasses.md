@@ -1,3 +1,9 @@
+### Thought process for designing this project: Design the program bottom up - create Course first, OfferedCourse second, then a separate class for main to manipulate Course and OfferedCourse objects.
+### Simple setters and getters for required info for Course and OfferedCourse. Create overridden printInfo method in OfferedCourse(similar to strategy for toString() from CS 190 last semester.
+### Main method will need Scanner for user input(prompting user would be more intuitive re. inputs - but not necessary for this project).
+### Use setter methods to assign input values to Course and OfferedCourse objects, followed by printInfo methods. 
+
+
 ```java
 
 public class Course{
