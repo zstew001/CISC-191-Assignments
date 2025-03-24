@@ -1,8 +1,8 @@
-### This Program exhibits the use of a try-catch block to catch a custom negative input exception.
-## Create stepsToMiles class that throws an exception for any negative input.
-## Create exception object within stepsToMiles class that provides the correct exception message.
-## If exception isn't caught, return int value for steps/2000 as miles. 
-## Create Main method and include input/try-catch block to test steps to miles and catch potential exceptions.
+# This Program exhibits the use of a try-catch block to catch a custom negative input exception.
+### Create stepsToMiles class that throws an exception for any negative input.
+### Create exception object within stepsToMiles class that provides the correct exception message.
+### If exception isn't caught, return int value for steps/2000 as miles. 
+### Create Main method and include input/try-catch block to test steps to miles and catch potential exceptions.
 
 ```Java
 
