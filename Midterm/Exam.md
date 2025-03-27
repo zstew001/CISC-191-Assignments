@@ -125,6 +125,7 @@ public class Equipment extends Drug{
 }
 
 import java.util.Scanner;
+import java.util.*;
 public class DrugDemo{
     public static void main(String[] args){
     
