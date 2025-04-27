@@ -1,7 +1,7 @@
-### This program uses a JSpinner to take user input (Distance in miles) and convert it to kilometers.
+## This program uses a JSpinner to take user input (Distance in miles) and convert it to kilometers.
 ## I created this program by redesigning the dog age to human age calculator from lecture.
 
-# Note to Dr. Khan: I really enjoyed working on the GUI projects over the past few weeks. This was completely new material for me and it was very fun to tinker with layouts, positioning, and stylistic elements of UI programming.
+### Note to Dr. Khan: I really enjoyed working on the GUI projects over the past few weeks. This was completely new material for me and it was very fun to tinker with layouts, positioning, and stylistic elements of UI programming.
 
 ```java
 
@@ -107,7 +107,7 @@ public class MilesToKilometersFrame extends JFrame implements ChangeListener {
 }
 ```
 
-### Below is a screenshot of the output of this program. 
+## Below is a screenshot of the output of this program. 
 ## I changed the calculation from increments of 1 to increments of 0.1 as mileage is often tracked more specifically than years.
 
 ![Screenshot 2025-04-26 205315](https://github.com/user-attachments/assets/9c3ff629-44c0-4bb5-b76e-ae61677ce410)
