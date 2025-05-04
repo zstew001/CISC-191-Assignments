@@ -1,7 +1,7 @@
-### My main challenge with this lab was preventing off-by-one errors and tracking comparisons and swaps correctly.
-## Originally, I made comparisons and swaps boolean vars and attempted to make a separate loop which tracked the occurrence of each instance where they indicated a true value.
-## However, this didn't work so I changed the tracking method to int vars and made them increment within the while loop upon each occurrence.
-## I also had difficulty printing each iteration of the array upon a comparison/swap occurrence, so I had to make a printInfo method to handle this separately(similar to the printInfo method from previous lecture section).
+## My main challenge with this lab was preventing off-by-one errors and tracking comparisons and swaps correctly.
+### Originally, I made comparisons and swaps boolean vars and attempted to make a separate loop which tracked the occurrence of each instance where they indicated a true value.
+### However, this didn't work so I changed the tracking method to int vars and made them increment within the while loop upon each occurrence.
+### I also had difficulty printing each iteration of the array upon a comparison/swap occurrence, so I had to make a printInfo method to handle this separately(similar to the printInfo method from previous lecture section).
 
 ```java
 
@@ -69,7 +69,7 @@ public class insertionSort{
     }
 }
 ```
-## The following is a screenshot of my output.
+### The following is a screenshot of my output.
 
 ![Screenshot 2025-05-04 083909](https://github.com/user-attachments/assets/be8b0c59-3278-4681-a70c-f7c046c171f2)
 
