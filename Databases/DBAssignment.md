@@ -5,8 +5,8 @@
 import java.sql.*;
 public class JavaDatabase {
     public static void main(String[] args){
-        String url = "jdbc:mysql://localhost/testdb";
-        String user = "testuser";
+        String url = "jdbc:mysql://localhost/Miramar";
+        String user = "testuser123";
         String pass = "DarthRevan7@";
 
         try (Connection conn = DriverManager.getConnection(url, user, pass)) {
