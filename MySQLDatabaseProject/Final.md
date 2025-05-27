@@ -1,13 +1,13 @@
-# Final Project CISC 191
+## Final Project CISC 191
 ## Challenges I ran into with this project:
 ### 1. Issues with failure to import lines from TSV file. Temp fix by importing data via whitespace separation combined with print statements to check which lines were being missed. This led to the realization that the file format provided wasn't actually "TSV". I was able to run the file through a google docs script to convert whitespaces to tabs based on ASCII vals.
 ### 2. Significant amounts of duplicates of each table unless the auto_stats DB was truncated between each use of the program. This was probably not a significant issue but I chose to find a fix to prevent duplicate data entries(more user friendly in my opinion).
 ### 3. Issues with null values causing incorrect data placement within tables when attempting to Stringify each piece of data being picked up by the GUI. Solved this by changing method to StringBuilder. 
 
-## DBUtils class contains core program logic. Connects to MySQL, creates tables using MySql commands, and imports data from TSV file to fill auto_stats DB tables.
-## SliderPanel class creates the UI frame, sliders for mpg/horsepower, and user input textbox for car_name.
-## AutoStatsViewer loads and formats the Swing GUI elemends from SliderPanel. Also contains the logic for fetching info from auto_stats and populating the UI elements with desired info.
-## Main provides the filepath for desired TSV file, calls from DBUtils and AutoStatsViewer to load the program.
+### DBUtils class contains core program logic. Connects to MySQL, creates tables using MySql commands, and imports data from TSV file to fill auto_stats DB tables.
+### SliderPanel class creates the UI frame, sliders for mpg/horsepower, and user input textbox for car_name.
+### AutoStatsViewer loads and formats the Swing GUI elemends from SliderPanel. Also contains the logic for fetching info from auto_stats and populating the UI elements with desired info.
+### Main provides the filepath for desired TSV file, calls from DBUtils and AutoStatsViewer to load the program.
 
 ```java
 import java.io.BufferedReader;
